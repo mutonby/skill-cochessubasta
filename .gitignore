@@ -1,0 +1,21 @@
+# Secretos — NUNCA subir
+.env
+.env.*
+*.key
+
+# Datos extraídos de subastas: fotos con matrículas reales + datos personales.
+# Son salida de trabajo, no forman parte de la skill, y contienen datos de terceros.
+boe_*/
+
+# Backups locales
+*.bak
+settings.json.bak
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# macOS
+.DS_Store
